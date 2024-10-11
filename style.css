@@ -1,0 +1,125 @@
+a,
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    border: 2px solid palevioletred;
+    border-radius: 10%;
+    margin-top: 20%;
+    padding: 30px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: palevioletred;
+}
+
+.form {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+
+}
+
+.btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn span {
+    background-color: palevioletred;
+    border-radius: 15%;
+    padding: 15px;
+    color: white;
+}
+
+.btn span:hover {
+    cursor: pointer;
+}
+
+.btn a {
+    color: white;
+}
+
+#errorMessage {
+    visibility: hidden;
+    color: red;
+}
+
+.counter-container {
+    /* border: 2px solid palevioletred; */
+}
+
+.sub-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cookiesandplate {
+    width: 50%;
+    height: fit-content;
+    /* border: 1px solid black; */
+}
+
+.cookie {
+    position: absolute;
+    width: 30px;
+    top: 50%;
+    left: 50%;
+}
+
+.cookie img {
+    width: 100%;
+}
+
+.plate {
+    position: relative;
+    width: 100%;
+}
+
+.plate img {
+    width: 100%;
+}
+
+.counter {
+    /* border: 1px solid palevioletred; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 100%;
+}
+
+.addcookie-btn {
+    background-color: palevioletred;
+    user-select: none;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px black;
+    transition: background-color 0.3s, box-shadow 0.1s;
+}
+
+.addcookie-btn:active {
+    box-shadow: 0 1px #2980b9;
+    transform: translateY(3px);
+}
